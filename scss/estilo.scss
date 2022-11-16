@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+$Fuente-Titulo: Brush Script MT, Brush Script Std, cursive;
+$Font-size-header: 4rem;
+@import "variables";
+@import "extend";
+@import "mixin";
+.logoHeader{
+    width: 10%;
+}
+
+@keyframes Texto{
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.Main{
+    width: 100%;
+}
+.listaHeader{
+    display: flex; 
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.Header{
+    display: flex;
+    text-align: center;
+    .tituloHeader{
+        font-family: $Fuente-Titulo;
+        margin-top: 3rem;
+        animation-name: Texto;
+        animation-duration: 2s;
+        animation-iteration-count: initial;
+        font-size: $Font-size-header;
+        margin-left: 25%;
+        margin-right: 25%;
+        
+    }
+}
+.item{
+    text-decoration: none;
+color: black;
+font-family: 'Courier New', monospace;
+}
+
+.icono{
+    width: 10px;
+}
+.Derechos{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.carousel{
+    width: 100%;
+    height: 20%;
+}
+.IC{
+    width: 15%;
+    margin-left: 40%;
+    margin-right: 25%;
+    height: 20%;
+}
+.fotomain{
+    width: 100%;
+}
+//@media (min-width:300px) and (max width:800px) {
+  //  footer{
+  //      height: 100%;
+ //   }
+  //}

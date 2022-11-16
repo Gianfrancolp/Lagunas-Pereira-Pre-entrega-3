@@ -1,0 +1,84 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+.primerEstilo, .segundoEstilo {
+  font-size: large;
+  font-weight: bold;
+}
+
+.segundoEstilo {
+  font-style: oblique;
+}
+
+.cuartoEstilo {
+  font-family: fantasy;
+}
+
+.logoHeader {
+  width: 10%;
+}
+
+@keyframes Texto {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.Main {
+  width: 100%;
+}
+
+.listaHeader {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.Header {
+  display: flex;
+  text-align: center;
+}
+.Header .tituloHeader {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-top: 3rem;
+  animation-name: Texto;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+  font-size: 4rem;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.item {
+  text-decoration: none;
+  color: black;
+  font-family: "Courier New", monospace;
+}
+
+.icono {
+  width: 10px;
+}
+
+.Derechos {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.carousel {
+  width: 100%;
+  height: 20%;
+}
+
+.IC {
+  width: 15%;
+  margin-left: 40%;
+  margin-right: 25%;
+  height: 20%;
+}
+
+.fotomain {
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilo.css.map */

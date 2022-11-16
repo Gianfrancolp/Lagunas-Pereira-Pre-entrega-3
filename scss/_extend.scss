@@ -1,0 +1,8 @@
+.primerEstilo{
+    font-size: large;
+    font-weight: bold;
+}
+.segundoEstilo{
+    @extend .primerEstilo;
+    font-style: oblique;
+}

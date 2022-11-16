@@ -1,0 +1,6 @@
+@mixin Estiloparrafo{
+    font-family: fantasy;
+}
+.cuartoEstilo{
+    @include Estiloparrafo;
+}
