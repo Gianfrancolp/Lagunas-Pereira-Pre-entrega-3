@@ -44,8 +44,8 @@
   animation-name: Texto;
   animation-duration: 2s;
   animation-iteration-count: initial;
-  font-size: 4rem;
-  margin-left: 25%;
+  font-size: 4vw;
+  margin-left: 20%;
   margin-right: 25%;
 }
 
@@ -79,6 +79,12 @@
 
 .fotomain {
   width: 100%;
+}
+
+@media (min-width: 350px) and (max-width: 750px) {
+  .MI {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
